@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --color-1: #242526;
+    --color-2: #fff;
+    --color-3: #0084ff;
+    --color-4: grey;
+    --color-5: #eb4034;
+    --color-6: #333;
+}
+
+body {
+    background-color: #e1e0dd;
+    position: relative;
+    padding: 20px 0;
+    overflow-y: hidden;
+}
+div.background {
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    background-color: #5daa84;
+    z-index: -1;
+    top: 0;
+}
+section.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+div button.load {
+    background-color: rgb(149, 224, 27);
+}
+div.img-container:hover .overlay {
+    opacity: 1;
+    
+}
+p.online {
+    color: rgb(43, 212, 43);
+}
+section.msg_wrapper.mine {
+    text-align: right;
+    padding-right: 20px ;
+}
+section.msg_wrapper.his {
+    text-align: left;
+    padding-left: 20px ;
+}
+div.me {
+    background-color: #d1f4cc;
+    z-index: 25;
+}
+div.friend {
+    background-color: #fff;
+}
+div.me span {
+    top: 0;
+    right: -10px;
+    border-top: 20px solid #d1f4cc;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    z-index: 23;
+    width: 1px;
+}
+div.friend span {
+    top: 0;
+    left: -10px;
+    border-top: 20px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    z-index: 23;
+    width: 1px;
+}
+div.friend small {
+    text-align: left;
+}
+div.me small {
+    text-align: right;
+}
+div.Message_box::-webkit-scrollbar {
+    display: none;
+}
+ul.Uplists li.active {
+    transform: translateY(0px);
+}
+.upload_icons {
+    font-size: 25px;
+    color: #000;
+}
+div.container::-webkit-scrollbar {
+    display: none;
+}
+div.ham {
+    left: 0;
+}
+
+.cursor {
+    cursor: pointer;
+}
+aside.emoji-picker-react {
+    position: absolute;
+    transition: 0.5s ease all;
+    top: -330px;
+    left: -100px;
+}
+.emojiBox {
+    /* top: -330px; */
+}
