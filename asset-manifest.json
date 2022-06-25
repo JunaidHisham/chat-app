@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chat-app/static/css/main.163a350d.css",
+    "main.js": "/chat-app/static/js/main.3992137c.js",
+    "static/media/giphy.gif": "/chat-app/static/media/giphy.53e92b6726ab9f6fe1b1.gif",
+    "static/media/WhatsApp.ogg": "/chat-app/static/media/WhatsApp.8eacc33c60b2e97d1d59.ogg",
+    "index.html": "/chat-app/index.html",
+    "main.163a350d.css.map": "/chat-app/static/css/main.163a350d.css.map",
+    "main.3992137c.js.map": "/chat-app/static/js/main.3992137c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.163a350d.css",
+    "static/js/main.3992137c.js"
+  ]
+}
